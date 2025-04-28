@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fda5d5;
+  background-image: radial-gradient(#000 1px, transparent 1px);
+  background-size: 34px 30px;
+
+  font-family: sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: pink;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: palevioletred;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
